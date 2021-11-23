@@ -14,6 +14,8 @@ import 'antd/dist/antd.css';
 const { Content } = Layout;
 const { TabPane } = Tabs;
 
+console.log('build test');
+
 const Home: NextPage = () => {
 	const [activeTab, setActiveTab] = useState(TAB_KEYS.OBJECT_LIST);
 	const [playgroundData, setPlaygroundData] = useState<{
